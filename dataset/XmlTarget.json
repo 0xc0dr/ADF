@@ -1,0 +1,17 @@
+{
+	"name": "XmlTarget",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "TargetStorage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Xml",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "target"
+			}
+		}
+	}
+}

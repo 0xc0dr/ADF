@@ -1,0 +1,17 @@
+{
+	"name": "XmlSource",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SourceStorage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Xml",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "source"
+			}
+		}
+	}
+}
